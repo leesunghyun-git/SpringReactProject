@@ -1,1 +1,4 @@
 # SpringReactProject
+
+JPA , ThymeLeaf
+React
