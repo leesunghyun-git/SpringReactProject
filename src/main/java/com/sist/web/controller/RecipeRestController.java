@@ -52,7 +52,7 @@ public class RecipeRestController {
 		catch(Exception ex) {
 			ex.printStackTrace();
 			return new ResponseEntity<>(null,HttpStatus.INTERNAL_SERVER_ERROR);
-		}
+		}	
 		
 		return new ResponseEntity<>(map,HttpStatus.OK);
 	}
